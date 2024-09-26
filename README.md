@@ -1,36 +1,35 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Job Application Logger
 
-## Getting Started
+**Job Application Logger** is a personal web application designed to help me efficiently track and manage my job applications. This project aims to simplify the job search process by organizing application statuses, fetching and categorizing relevant emails, and providing insights to monitor progress.
 
-First, run the development server:
+## Overview
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Job Application Logger leverages modern web technologies to deliver a seamless user experience. Users can securely sign in with their Google accounts, log their job applications, and categorize them based on their current status, such as Submitted, Interview Requested, Assessment Requested, Offer, and Rejected. The application integrates with Gmail to automatically fetch and classify job-related communications, enabling users to focus more on preparing for interviews and less on administrative tasks.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Technologies Used
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+- **Front-End:** React.js, Next.js, HTML, CSS, JavaScript
+- **Authentication:** NextAuth.js (Google Sign-In)
+- **Back-End:** Node.js, Express.js
+- **APIs:** Gmail API
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## Features
 
-## Learn More
+- **User Authentication:** Secure sign-in with Google integration.
+- **Application Tracking:** Log and categorize job applications based on their status.
+- **Email Integration:** Automatically fetch and categorize job-related emails from Gmail.
 
-To learn more about Next.js, take a look at the following resources:
+## Current Status
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+This project is currently **in progress** and under active development. While the core functionalities are operational, there are ongoing enhancements and features planned to further improve usability and performance.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## Future Work
 
-## Deploy on Vercel
+- Enhance email categorization using advanced Natural Language Processing (NLP) techniques.
+- Implement data visualization tools to track application progress and analytics.
+- Optimize the user interface for better responsiveness and accessibility.
+- Integrate additional APIs to expand the application's functionality.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+---
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+
